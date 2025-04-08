@@ -4,9 +4,9 @@ setup(
     name='quillpy',
     version='0.1.0',
     description='A lightweight terminal-based text editor',
-    author='Alfie',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/quillpy',
+    author='mralfiem591',
+    author_email='iamamccabe@gmail.com',
+    url='https://github.com/mralfiem591/quillpy',
     license='MIT',
     python_requires='>=3.6',
     project_urls={
