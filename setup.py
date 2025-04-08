@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='quillpy',
-    version='0.1.3',
+    version='0.1.4',
     description='A lightweight terminal-based text editor',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
@@ -34,6 +34,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Topic :: Text Editors :: Documentation',
+        'Topic :: Utilities',
+        'Operating System :: OS Independent',
+    ]
+)
         'Topic :: Utilities',
         'Operating System :: OS Independent',
     ]
