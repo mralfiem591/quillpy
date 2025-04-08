@@ -25,7 +25,7 @@ class QuillEditor:
             while True:
                 self._draw_interface(stdscr)
                 key = stdscr.getch()
-                if key == ord('q'):
+                if key == 17:  # Ctrl+Q
                     break
                 elif key == 19:  # Ctrl+S
                     self.save_file(stdscr)
@@ -42,7 +42,7 @@ class QuillEditor:
                     self.cursor_x = max(0, self.cursor_x-1)
                 elif key == curses.KEY_RIGHT:
                     self.cursor_x = min(len(self.content[self.cursor_y]), self.cursor_x+1)
-                elif key == curses.KEY_BACKSPACE:
+                elif key in (curses.KEY_BACKSPACE, 127):  # Handle different terminal backspace codes
                     if self.cursor_x > 0:
                         self.content[self.cursor_y] = self.content[self.cursor_y][:self.cursor_x-1] + self.content[self.cursor_y][self.cursor_x:]
                         self.cursor_x -= 1
@@ -190,6 +190,10 @@ def main():
     import sys
     filename = sys.argv[1] if len(sys.argv) > 1 else None
     editor = QuillEditor(filename)
+    editor.run()
+
+if __name__ == "__main__":
+    main()
     editor.run()
 
 if __name__ == "__main__":
