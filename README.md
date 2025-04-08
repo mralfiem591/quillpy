@@ -50,7 +50,7 @@ python quill.py filename.txt
 
 ## License
 
-[MIT License](LICENSE.txt)
+[MIT License](LICENSE)
 
 ## Development Setup
 
