@@ -21,6 +21,13 @@ quillpy filename.txt  # Open existing file
 quillpy newfile.txt    # Create new file
 ```
 
+If that dosen't work, try:
+
+```bash
+python -m quillpy filename.txt  # Open existing file
+python -m quillpy newfile.txt    # Create new file
+```
+
 **Key Bindings:**
 
 - Ctrl+S: Save file
@@ -37,16 +44,7 @@ quillpy newfile.txt    # Create new file
 - Basic text editing operations
 - Syntax highlighting (Python supported)
 - Multiple file support
-
-## Basic Usage
-
-```bash
-python quill.py filename.txt
-```
-
-- Use arrow keys to navigate
-- Ctrl+S to save
-- Ctrl+Q to quit
+- Clipboard support (Windows)
 
 ## License
 

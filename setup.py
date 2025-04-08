@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name='quillpy',
-    version='0.1.1',
+    version='0.1.2',
     description='A lightweight terminal-based text editor',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Alfie',
-    author_email='your.email@example.com',
+    author_email='iamamccabe@gmail.com',
     url='https://github.com/mralfiem591/quillpy',
     license='MIT',
     python_requires='>=3.6',
