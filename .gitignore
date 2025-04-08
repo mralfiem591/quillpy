@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyre
+
+# Environment
+.env
+.env.local
+
+# Build/install
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipynb_checkpoints
+
+# OS generated
+.DS_Store
+Thumbs.db

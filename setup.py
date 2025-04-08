@@ -10,8 +10,8 @@ setup(
     license='MIT',
     python_requires='>=3.6',
     project_urls={
-        'Bug Tracker': 'https://github.com/yourusername/quillpy/issues',
-        'Source Code': 'https://github.com/yourusername/quillpy',
+        'Bug Tracker': 'https://github.com/mralfiem591/quillpy/issues',
+        'Source Code': 'https://github.com/mralfiem591/quillpy',
     },
     packages=['quillpy'],
     install_requires=[
