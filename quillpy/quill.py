@@ -42,10 +42,18 @@ class QuillEditor:
                     self.cursor_x = max(0, self.cursor_x-1)
                 elif key == curses.KEY_RIGHT:
                     self.cursor_x = min(len(self.content[self.cursor_y]), self.cursor_x+1)
-                elif key in (curses.KEY_BACKSPACE, 127):  # Handle different terminal backspace codes
+                elif key in (curses.KEY_BACKSPACE, 127, 8):  # Handle all backspace variations (ASCII DEL/BS, curses constant)
                     if self.cursor_x > 0:
+                        # Delete within current line
                         self.content[self.cursor_y] = self.content[self.cursor_y][:self.cursor_x-1] + self.content[self.cursor_y][self.cursor_x:]
                         self.cursor_x -= 1
+                    elif self.cursor_y > 0:
+                        # Merge with previous line when at start of line
+                        prev_line_length = len(self.content[self.cursor_y - 1])
+                        self.content[self.cursor_y - 1] += self.content[self.cursor_y]
+                        del self.content[self.cursor_y]
+                        self.cursor_y -= 1
+                        self.cursor_x = prev_line_length
                 elif key == 10:  # Enter
                     self.content.insert(self.cursor_y+1, self.content[self.cursor_y][self.cursor_x:])
                     self.content[self.cursor_y] = self.content[self.cursor_y][:self.cursor_x]
@@ -190,10 +198,6 @@ def main():
     import sys
     filename = sys.argv[1] if len(sys.argv) > 1 else None
     editor = QuillEditor(filename)
-    editor.run()
-
-if __name__ == "__main__":
-    main()
     editor.run()
 
 if __name__ == "__main__":
