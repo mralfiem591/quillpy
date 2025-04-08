@@ -34,11 +34,6 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Topic :: Text Editors :: Documentation',
-        'Topic :: Utilities',
-        'Operating System :: OS Independent',
-    ]
-)
-        'Topic :: Utilities',
-        'Operating System :: OS Independent',
+        'Topic :: Utilities'
     ]
 )
