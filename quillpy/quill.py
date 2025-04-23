@@ -1,6 +1,7 @@
 import curses
 import os
 import traceback
+import sys
 
 class QuillEditor:
     def __init__(self, filename=None):
@@ -196,7 +197,6 @@ class QuillEditor:
 
 
 def main():
-    import sys
     filename = sys.argv[1] if len(sys.argv) > 1 else None
     editor = QuillEditor(filename)
     editor.run()
@@ -206,6 +206,9 @@ def colour(code, text):
 
 if __name__ == "__main__":
     try:
+        if len(sys.argv) = 1:
+            if sys.argv[1] == "version":
+                
         main()
     except Exception as e:
         print(colour('\033[31m', 'Oh no! An error occurred!.'))
