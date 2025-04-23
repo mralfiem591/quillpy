@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/mralfiem591/quillpy/raw/1fba968964a17ea39e31a43e4bf51a2bd90b9d3f/logo.png" alt="QuillPy Logo" width="400">
+    <img src="https://raw.githubusercontent.com/mralfiem591/quillpy/7c487a5d1142ceeccb12a856646b2712809dd541/logo.png" alt="QuillPy Logo" width="400">
 </div>
 
 # QuillPy
