@@ -1,5 +1,11 @@
 # QuillPy
 
+[![Publish Python Package](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml/badge.svg)](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Made_with-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/mralfiem591/quillpy)
+
+
 A lightweight terminal-based text editor for Python
 
 ## Installation
