@@ -11,6 +11,8 @@ if __name__ == __main__:
                 print(f"Version: v{VERSION}")
                 exit(0)
         main()
+    except KeyboardInterrupt:
+        exit(0)
     except Exception as e:
         print(colour('\033[31m', 'Oh no! An error occurred!.'))
         if not str(e):
