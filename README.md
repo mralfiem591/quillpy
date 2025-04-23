@@ -16,10 +16,6 @@ A lightweight terminal-based text editor for Python
 # Install from PyPI
 pip install quillpy
 
-# Install with clipboard support (Windows)
-pip install quillpy[windows]
-
-
 ```
 
 ## Usage
