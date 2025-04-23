@@ -4,6 +4,9 @@ import sys
 
 VERSION = "0.2.5"
 
+def colour(code, text):
+    return(f"{code}{text}\033[0m")
+
 if __name__ == __main__:
     try:
         if len(sys.argv) == 1:
