@@ -2,6 +2,8 @@ from .quill import QuillEditor, main
 import traceback
 import sys
 
+VERSION = "0.2.5"
+
 if __name__ == __main__:
     try:
         if len(sys.argv) == 1:
