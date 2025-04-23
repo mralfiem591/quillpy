@@ -1,7 +1,7 @@
 from .quill import QuillEditor, main
 import traceback
 
-VERSION = "0.2.6"
+VERSION = "0.2.7"
 
 def colour(code, text):
     return(f"{code}{text}\033[0m")
