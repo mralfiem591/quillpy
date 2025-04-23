@@ -4,6 +4,8 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/Made_with-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/mralfiem591/quillpy)
+![GitHub issues](https://img.shields.io/github/issues/mralfiem591/quillpy)
+![PyPI downloads](https://img.shields.io/pypi/dm/quillpy)
 
 
 A lightweight terminal-based text editor for Python
