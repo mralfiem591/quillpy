@@ -1,6 +1,7 @@
 # QuillPy
 
 [![Publish Python Package](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml/badge.svg)](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml)
+[![CodeQL](https://github.com/mralfiem591/quillpy/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/mralfiem591/quillpy/actions/workflows/github-code-scanning/codeql)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/Made_with-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/mralfiem591/quillpy)
