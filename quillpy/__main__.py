@@ -1,21 +1,14 @@
 from .quill import QuillEditor, main
 import traceback
-import sys
 
-VERSION = "0.2.5"
+VERSION = "0.2.6"
 
 def colour(code, text):
     return(f"{code}{text}\033[0m")
 
 if __name__ == "__main__":
     try:
-        if len(sys.argv) == 1:
-            if sys.argv[1].lower() == "version":
-                print(f"Version: v{VERSION}")
-                exit(0)
         main()
-    except KeyboardInterrupt:
-        exit(0)
     except Exception as e:
         print(colour('\033[31m', 'Oh no! An error occurred!.'))
         if not str(e):
