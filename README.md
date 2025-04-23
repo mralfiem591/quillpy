@@ -32,6 +32,13 @@ python -m quillpy filename.txt  # Open existing file
 python -m quillpy newfile.txt    # Create new file
 ```
 
+**View Version**
+
+To view the version of QuillPy, run it like normal, but for the path, specify "version". Example:
+```bash
+quillpy version
+```
+
 **Key Bindings:**
 
 - Ctrl+S: Save file
