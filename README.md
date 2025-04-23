@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./logo.png" alt="QuillPy Logo" width="500">
+    <img src="./logo.png" alt="QuillPy Logo" width="400">
 </div>
 
 # QuillPy
