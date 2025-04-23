@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="./logo.png" alt="QuillPy Logo" width="200">
+</div>
+
 # QuillPy
 
 [![Publish Python Package](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml/badge.svg)](https://github.com/mralfiem591/quillpy/actions/workflows/python-publish.yml)
