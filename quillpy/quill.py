@@ -3,7 +3,7 @@ import os
 import traceback
 import sys
 
-VERSION = "0.2.6"
+VERSION = "0.2.7"
 
 class QuillEditor:
     def __init__(self, filename=None):
@@ -208,10 +208,6 @@ def colour(code, text):
 
 if __name__ == "__main__":
     try:
-        if len(sys.argv) == 1:
-            if sys.argv[1].lower() == "version":
-                print(f"Version: v{VERSION}")
-                exit(0)
         main()
     except Exception as e:
         print(colour('\033[31m', 'Oh no! An error occurred!.'))
