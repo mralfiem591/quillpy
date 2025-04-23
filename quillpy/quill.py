@@ -3,7 +3,7 @@ import os
 import traceback
 import sys
 
-VERSION = "0.2.1"
+VERSION = "0.2.2"
 
 class QuillEditor:
     def __init__(self, filename=None):
