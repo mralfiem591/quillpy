@@ -208,7 +208,7 @@ def colour(code, text):
 
 if __name__ == "__main__":
     try:
-        if len(sys.argv) = 1:
+        if len(sys.argv) == 1:
             if sys.argv[1].lower() == "version":
                 print(f"Version: v{VERSION}")
         main()
